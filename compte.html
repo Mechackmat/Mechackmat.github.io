@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wenze na Biso</title>
+
+  <!-- Bootstrap CSS --> 
+  <link rel="stylesheet" href="STYLE/bootstrap.css">
+  <!-- CSS personnalisé -->
+  <link rel="stylesheet" href="STYLE/style.css">
+</head>
+<body>
+
+  
+    <header>
+        <div class="navbar-container">
+          <img src="STYLE/logo pour tanisha.png" alt="Logo Wenze na Biso" class="logo">
+          <h1 class="site-title">Wenze na Bino</h1>
+      
+          <!-- Bouton burger -->
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="burger">&#9776;</label>
+      
+          <!-- Navigation -->
+          <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produit.html">Produits frais</a></li>
+            <li><a href="compte.html">Mon compte</a></li>
+            <li><a href="panier.html">Panier</a></li>
+            <li><a href="platskinois.html">Plats Kinshasa</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="temoignages.html">Témoignages</a></li>
+            <li><a href="avis.html">Avis</a></li>    
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <body class="account-body">
+        <section class="account-container container">
+          <h2 class="account-title">Mon Compte</h2>
+      
+          <div class="account-forms">
+      
+            <!-- Formulaire inscription -->
+            <form class="account-form register-form">
+              <h3 class="form-heading">Créer un compte</h3>
+              <div class="form-group">
+                <label for="register-name">Nom complet</label>
+                <input type="text" id="register-name" name="register-name" placeholder="Votre nom complet" required>
+              </div>
+              <div class="form-group">
+                <label for="register-email">Adresse e-mail</label>
+                <input type="email" id="register-email" name="register-email" placeholder="Votre e-mail" required>
+              </div>
+              <div class="form-group">
+                <label for="register-password">Mot de passe</label>
+                <input type="password" id="register-password" name="register-password" placeholder="Votre mot de passe" required>
+              </div>
+              <button type="submit" class="account-btn">S'inscrire</button>
+            </form>
+      
+            <!-- Formulaire connexion -->
+            <form class="account-form login-form">
+              <h3 class="form-heading">Se connecter</h3>
+              <div class="form-group">
+                <label for="login-email">Adresse e-mail</label>
+                <input type="email" id="login-email" name="login-email" placeholder="Votre e-mail" required>
+              </div>
+              <div class="form-group">
+                <label for="login-password">Mot de passe</label>
+                <input type="password" id="login-password" name="login-password" placeholder="Votre mot de passe" required>
+              </div>
+              <button type="submit" class="account-btn">Connexion</button>
+            </form>
+      
+          </div>
+        </section>
+      </body>
+      
+
+       

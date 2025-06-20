@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wenze na Bino</title>
+
+  <!-- Bootstrap CSS --> 
+  <link rel="stylesheet" href="STYLE/bootstrap.css">
+  <!-- CSS personnalisé -->
+  <link rel="stylesheet" href="STYLE/style.css">
+</head>
+<body>
+
+  
+    <header>
+        <div class="navbar-container">
+          <img src="STYLE/logo pour tanisha.png" alt="Logo Wenze na Biso" class="logo">
+          <h1 class="site-title">Wenze na Bino</h1>
+      
+          <!-- Bouton burger -->
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="burger">&#9776;</label>
+      
+          <!-- Navigation -->
+          <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produit.html">Produits frais</a></li>
+            <li><a href="compte.html">Mon compte</a></li>
+            <li><a href="panier.html">Panier</a></li>
+            <li><a href="platskinois.html">Plats Kinshasa</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="temoignages.html">Témoignages</a></li>
+            <li><a href="avis.html">Avis</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+      </header>
+       
+      <body class="page-plats-body">
+
+        <div class="container py-5">
+      
+          <!-- Barre de recherche -->
+          <div class="search-container mb-5">
+            <input type="text" id="searchPlats" class="form-control search-plats-input" placeholder="Rechercher un plat ou un accompagnement...">
+          </div>
+      
+          <!-- Section Plats -->
+          <section class="plats-section mb-5  reveal-fade-up">
+            <h2 class="section-title ">Nos Plats</h2>
+            <div class="row plats-list">
+             
+              
+              <!-- Plat 1 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-left">
+                  <img src="style/poulet_sauce_arachide.jpg" alt="Poulet à la sauce arachide" class="plat-img rounded-circle">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Poulet à la sauce arachide (Soso ya mwambe)</h3>
+                    <p class="plat-desc">Un délicieux poulet mijoté dans une sauce onctueuse à base d'arachide, parfumé aux épices locales.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Plat 2 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-right">
+                  <img src="style/ngulu_loso.jpg" alt="Ngulu ya loso" class="plat-img rounded-oval">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Ngulu (porc braisé façon kinoise)</h3>
+                    <p class="plat-desc">Porc braisé tendre et savoureux, cuit selon la recette traditionnelle de Kinshasa.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Plat 3 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-left">
+                  <img src="style/poisson_salte_tomate.jpg" alt="Poisson salé sauce tomate" class="plat-img rounded-rectangle">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Poisson salé sauce tomate</h3>
+                    <p class="plat-desc">Poisson salé mijoté dans une riche sauce tomate relevée, un classique apprécié.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Plat 4 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-right">
+                  <img src="style/brochette_chevre.jpg" alt="Brochette de chèvre" class="plat-img rounded-circle">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Brochette de chèvre (Tige)</h3>
+                    <p class="plat-desc">Brochettes savoureuses de chèvre grillées, tendres et bien épicées.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Plat 5 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-left">
+                  <img src="style/tshaka_madesu.jpg" alt="Tshaka Madesu" class="plat-img rounded-oval">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Tshaka Madesu</h3>
+                    <p class="plat-desc">Un mélange savoureux d’haricots (madesu) et de feuilles de manioc (tshaka), mijoté avec des épices locales.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+              
+      
+              <!-- Plat 6 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-right">
+                  <img src="style/poulet_mayo.jpg" alt="poulet_mayo" class="plat-img rounded-rectangle">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Poulet mayo </h3>
+                    <p class="plat-desc"> Poulet tendre servi avec une sauce mayonnaise crémeuse, un classique apprécié</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Plat 7 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-left">
+                  <img src="style/thompson.jpg" alt="Poisson braisé Mbisu Batumba" class="plat-img rounded-circle">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Poisson braisé (Mbisu Batumba)</h3>
+                    <p class="plat-desc">Poisson braisé à la mode <br>Mbisu Batumba, savoureux<br> et parfaitement grillé.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Plat 8 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-right">
+                  <img src="style/madesu.jpg" alt="Haricots Madesu à Kin" class="plat-img rounded-oval">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Haricots (Madesu à Kin)</h3>
+                    <p class="plat-desc">Haricots cuisinés à la mode kinshaise,<br> riches en goût et tradition.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+              
+      
+              <!-- Plat 9 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-left">
+                  <img src="style/poisson_fumé_legumes.jpg" alt="Poisson fumé aux légumes" class="plat-img rounded-rectangle">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Poisson fumé aux légumes</h3>
+                    <p class="plat-desc">Poisson fumé délicatement accompagné de légumes frais et savoureux.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Plat 10 -->
+              <div class="col-md-6 col-sm-12 plat-card-wrapper">
+                <div class="plat-card shadow rounded-4 slide-in-right">
+                  <img src="style/fumbwa.jpg" alt="Fumbwa" class="plat-img rounded-circle">
+                  <div class="plat-content">
+                    <h3 class="plat-title">Fumbwa</h3>
+                    <p class="plat-desc">Un plat traditionnel à base de feuilles de fumbwa, très apprécié à Kinshasa.</p>
+                    <button class="btn btn-orange btn-commander">Commander ce plat</button>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </section>
+      
+          <!-- Section Accompagnements -->
+          <section class="accompagnement-section mb-5  reveal-fade-up">
+            <h2 class="section-title">Nos Accompagnements</h2>
+            <div class="row accompagnement-list">
+      
+              <!-- Accompagnement 1 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+                <div class="accompagnement-card shadow rounded-4 slide-in-left">
+                  <img src="style/chikwangue.jpg" alt="Chikwangue" class="accompagnement-img rounded-circle">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">Chikwangue</h3>
+                    <p class="accompagnement-desc">Bâton de manioc fermenté, une base traditionnelle parfaite <br> pour accompagner vos plats.</p>
+                    <button class="btn btn-orange btn-commander">Commander l'accompagnement</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Accompagnement 2 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+                <div class="accompagnement-card shadow rounded-4 slide-in-right">
+                  <img src="style/fufu.jpg" alt="Fufu" class="accompagnement-img rounded-oval">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">Fufu</h3>
+                    <p class="accompagnement-desc">Farine de manioc ou maïs pilé,<br> parfait pour accompagner <br> les sauces épaisses.</p>
+                    <button class="btn btn-orange btn-commander">Commander l'accompagnement</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Accompagnement 3 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+                <div class="accompagnement-card shadow rounded-4 slide-in-left">
+                  <img src="style/riz_blanc.jpg" alt="Riz blanc" class="accompagnement-img rounded-rectangle">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">Riz blanc</h3>
+                    <p class="accompagnement-desc">Riz blanc classique, léger et idéal pour équilibrer vos repas.</p>
+                    <button class="btn btn-orange btn-commander">Commander l'accompagnement</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Accompagnement 4 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+                <div class="accompagnement-card shadow rounded-4 slide-in-right">
+                  <img src="style/SPHAGA.jpg" alt="Spaghetti de Kin" class="accompagnement-img rounded-circle">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">Spaghetti</h3>
+                    <p class="accompagnement-desc">Spaghetti préparé<br> à la mode de Kinshasa, <br> riche en saveurs locales.</p>
+                    <button class="btn btn-orange btn-commander">Commander l'accompagnement</button>
+                  </div>
+                </div>
+              </div>
+              
+      
+              <!-- Accompagnement 5 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper"> 
+                <div class="accompagnement-card shadow rounded-4 slide-in-left">
+                  <img src="style/makemba_frit.jpg" alt="Makemba frit" class="accompagnement-img rounded-oval">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">Makemba frit</h3>
+                    <p class="accompagnement-desc">Banane plantain frite,<br> croustillante et sucrée,<br> un classique incontournable.</p>
+                    <button class="btn btn-orange btn-commander">Commander l'accompagnement</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Accompagnement 6 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+                <div class="accompagnement-card shadow rounded-4 slide-in-right">
+                  <img src="style/banane_plantain_bouillie.jpg" alt="Banane plantain bouillie" class="accompagnement-img rounded-rectangle">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">Banane plantain <br> bouillie</h3>
+                    <p class="accompagnement-desc">Banane plantain cuite <br> à l'eau, douce et tendre, <br>parfaite pour accompagner vos plats.</p>
+                    <button class="btn btn-orange btn-commander">Commander l'accompagnement</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Accompagnement 7 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+                <div class="accompagnement-card shadow rounded-4 slide-in-left">
+                  <img src="style/bolaye.jpg" alt="Riz à la sauce tomate Loso ya Boulaye" class="accompagnement-img rounded-circle">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">Riz à la sauce tomate<br> (Loso ya Boulaye)</h3>
+                    <p class="accompagnement-desc">Riz servi avec <br>une sauce tomate riche et épicée,<br> préparée selon <br> la recette traditionnelle .</p>
+                    <button class="btn btn-orange btn-commander">Commander l'accompagnement</button>
+                  </div>
+                </div>
+              </div>
+              
+      
+               <!-- Accompagnement 8 -->
+<div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+  <div class="accompagnement-card shadow rounded-4 slide-in-right">
+    <img src="style/lituma.jpg" alt="Lituma" class="accompagnement-img rounded-oval">
+    <div class="accompagnement-content">
+      <h3 class="accompagnement-title">Lituma(foutou)</h3>
+      <p class="accompagnement-desc">Purée de banane plantain assaisonnée<br> un accompagnement <br>traditionnel et savoureux.</p>
+      <button class="btn btn-orange btn-commander">Commander cet accompagnement</button>
+    </div>
+  </div>
+</div>
+
+              <!-- Accompagnement 9 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+                <div class="accompagnement-card shadow rounded-4 slide-in-left">
+                  <img src="style/frites.jpeg" alt="Pomme de terre frites" class="accompagnement-img rounded-rectangle">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">frites</h3>
+                    <p class="accompagnement-desc">Pommes de terre coupées et frites croustillantes, un classique aimé de tous.</p>
+                    <button class="btn btn-orange btn-commander">Commander cet accompagnement</button>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Accompagnement 10 -->
+              <div class="col-md-6 col-sm-12 accompagnement-card-wrapper">
+                <div class="accompagnement-card shadow rounded-4 slide-in-right">
+                  <img src="style/pomme_de_terre_saut.jpg" alt="Pomme de terre sautées" class="accompagnement-img rounded-circle">
+                  <div class="accompagnement-content">
+                    <h3 class="accompagnement-title">Pomme de terre <br> sautées</h3>
+                    <p class="accompagnement-desc">Pommes de terre sautées <br> à la poêle, légèrement épicées <br> et croustillantes.</p>
+                    <button class="btn btn-orange btn-commander">Commander cet accompagnement</button>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </section>
+
+          <div class="actualiser-container text-center my-4">
+            <button class="btn-actualiser">
+              Actualiser Plats et Accompagnements
+            </button>
+          </div>
+      
+          <!-- Commande au hasard -->
+          <section class="commande-hasard-section py-4 border-top border-3 border-orange mt-5">
+            <div class="d-flex justify-content-center gap-3">
+              <button class="btn btn-gradient btn-hasard">Commander un plat et un accompagnement</button>
+              <button class="btn btn-gradient btn-hasard">Commander un plat</button>
+              <button class="btn btn-gradient btn-hasard">Commander un accompagnement</button>
+            </div>
+          </section>
+          
+        </div>
+      
+      </body>
+      
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section reveal">
+            <h5>Navigation</h5>
+            <div class="footer-nav">
+                <a href="index.html">Accueil</a>
+                <a href="produit.html">Produits frais</a>
+                <a href="categories.html">Catégories</a>
+                <a href="panier.html">Panier</a> 
+                <a href="platskinois.html">Plats Kinshasa</a>
+                <a href="a-propos.html">À propos</a>
+                <a href="faq.html">FAQ</a>
+                <a href="temoignages.html">Témoignages</a>
+                <a href="avis.html">Avis</a>
+                <a href="blog.html">Blog</a>
+              </div>
+              
+          </div>
+      
+          <div class="footer-section reveal">
+            <h5>Contact</h5>
+            <ul class="footer-links">
+              <li>Orange : +243 89 123 4567</li>
+              <li>Airtel : +243 97 765 4321</li>
+              <li>Vodacom : +243 81 234 5678</li>
+              <li>Africell : +243 90 876 5432</li>
+              <li>Adresse : 123 Marché Central, Kinshasa</li>
+              <li>Email : <a href="mailto:contact@wenza.cd">contact@wenza.cd</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section reveal">
+            <h5>Suivez-nous</h5>
+            <div class="social-icons">
+              <img src="STYLE/icones/facebook.png" alt="Facebook">
+              <img src="STYLE/icones/instagram.png" alt="Instagram">
+              <img src="STYLE/icones/twitter.png" alt="Twitter">
+              <img src="STYLE/icones/whatsapp.png" alt="WhatsApp">
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom reveal">
+          <p>&copy; 2025 <strong>Wenze na Biso</strong>. Tous droits réservés.</p>
+        </div>
+      </footer>
+      
+    </html>
+    
+      
+  
