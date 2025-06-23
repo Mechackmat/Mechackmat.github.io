@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to bottom right, #fff8f0, #ffe0b3);
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .text-orange {
+    color: #e86c00;
+  }
+  
+  .table-orange {
+    background-color: #e86c00;
+  }
+  
+  .custom-table {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .custom-table th, .custom-table td {
+    vertical-align: middle;
+    padding: 1rem;
+  }
+  
+  .scroll-fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+  }
+  
+  .scroll-fade-in.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Motifs et formes de fond */
+  .background-motif {
+    position: fixed;
+    z-index: -1;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+      radial-gradient(circle at 10% 20%, #ff990033 0%, transparent 40%),
+      radial-gradient(circle at 80% 0%, #ffaa0055 0%, transparent 50%),
+      radial-gradient(circle at 70% 80%, #ff660055 0%, transparent 30%),
+      url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><rect x="10" y="10" width="40" height="40" fill="orange" opacity="0.1" transform="rotate(45 50 50)"/></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 0.2;
+  }
+  
